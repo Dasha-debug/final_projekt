@@ -1,4 +1,4 @@
-# Breakfast Surprise
+# Breakfast Menu
 #### Video Demo: <URL HERE>
 #### Description:
 
@@ -73,7 +73,7 @@ Potential improvements could include:
 
 ## Credits
 
-Images sourced from various breakfast and café collections, featuring a range of international breakfast options from Cappuccino to Oladushki.
+Few images sourced from various breakfast and café collections, but the rest was taken by me throughout the years which adds authenticity to this Breakfast menu.
 
 ## Setup
 
