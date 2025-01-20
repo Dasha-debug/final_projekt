@@ -1,11 +1,6 @@
 # Breakfast Menu
-<<<<<<< HEAD
 #### Video Demo: <https://youtu.be/9u239ll5eYk>
 #### Description: 
-=======
-#### Video Demo: <URL HERE>
-#### Description:
->>>>>>> refs/remotes/origin/main
 
 A cozy web application designed to make breakfast ordering a delightful experience between partners. This project combines functionality with a warm, intimate aesthetic to create a personal breakfast ordering system.
 
