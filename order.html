@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Your Order</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="order-window">
+            <h2>Complete Your Order</h2>
+            <form id="orderForm" onsubmit="return showConfirmation(event)">
+                <input type="hidden" id="emailTo" value="puttesfrulle@gmail.com">
+                <input type="hidden" id="selectedBreakfast" name="selectedBreakfast">
+                <div class="form-group">
+                    <label for="time">Delivery Time:</label>
+                    <select id="time" required>
+                        <option value="">Select time</option>
+                        <option value="7:00">7:00</option>
+                        <option value="7:30">7:30</option>
+                        <option value="8:00">8:00</option>
+                        <option value="8:30">8:30</option>
+                        <option value="9:00">9:00</option>
+                        <option value="9:30">9:30</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="location">Delivery Location:</label>
+                    <select id="location" required>
+                        <option value="">Select location</option>
+                        <option value="bed">In Bed</option>
+                        <option value="table">At the Table</option>
+                        <option value="office">In the Office</option>
+                    </select>
+                </div>
+                
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="kiss" name="kiss">
+                    <label for="kiss">Include a kiss with breakfast</label>
+                </div>
+                
+                <button type="submit" class="submit-button">Send Order</button>
+            </form>
+            
+            <div id="confirmation" class="confirmation hidden">
+                <p>Your order is on the way. Love, wifey xoxo</p>
+                <div class="heart">❤️</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

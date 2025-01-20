@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakfast Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cart-controls">
+            <div class="cart-display">
+                <h3>Your Breakfast Selection</h3>
+                <div id="cartItems" class="cart-items">
+                    <!-- Breakfast items will be displayed here -->
+                </div>
+                <div class="cart-empty" id="cartEmpty">Nothing selected yet</div>
+            </div>
+            <div class="cart-buttons">
+                <button class="cart-button" onclick="clearCart()">Clear Selection</button>
+                <a href="order.html" class="cart-button">Place Order</a>
+            </div>
+        </div>
+        <main class="menu-grid">
+            <div class="menu-item">
+                <h2>Cappuccino</h2>
+                <img src="src\breakfast/kaffe.jpg" alt="Cappuccino">
+                <button class="add-button" onclick="selectBreakfast('Cappuccino')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Champagne</h2>
+                <img src="src/breakfast/Champagne.jpeg" alt="Champagne">
+                <button class="add-button" onclick="selectBreakfast('Champagne')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Croissant med pistage</h2>
+                <img src="src/breakfast/Croissant med pistage.webp" alt="Croissant med pistage">
+                <button class="add-button" onclick="selectBreakfast('Croissant med pistage')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Eggs Benedict</h2>
+                <img src="src/breakfast/Eggs Benedict.jpeg" alt="Eggs Benedict">
+                <button class="add-button" onclick="selectBreakfast('Eggs Benedict')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Focaccia</h2>
+                <img src="src/breakfast/Focaccia.jpeg" alt="Focaccia">
+                <button class="add-button" onclick="selectBreakfast('Focaccia')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>French Toast</h2>
+                <img src="src/breakfast/French Toast.jpeg" alt="French Toast">
+                <button class="add-button" onclick="selectBreakfast('French Toast')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Freshly Baked Bread</h2>
+                <img src="src/breakfast/Freshly Baked Bread.jpeg" alt="Freshly Baked Bread">
+                <button class="add-button" onclick="selectBreakfast('Freshly Baked Bread')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Havrebullar</h2>
+                <img src="src/breakfast/Havrebullar.jpeg" alt="Havrebullar">
+                <button class="add-button" onclick="selectBreakfast('Havrebullar')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Kaffe & Croissant</h2>
+                <img src="src/breakfast/Kaffe & Croissant.jpeg" alt="Kaffe & Croissant">
+                <button class="add-button" onclick="selectBreakfast('Kaffe & Croissant')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Mocha eclair</h2>
+                <img src="src/breakfast/Mocha eclair.jpeg" alt="Mocha eclair">
+                <button class="add-button" onclick="selectBreakfast('Mocha eclair')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Mortadella sandwich</h2>
+                <img src="src/breakfast/Mortadella sandwich.jpeg" alt="Mortadella sandwich">
+                <button class="add-button" onclick="selectBreakfast('Mortadella sandwich')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Oladushki</h2>
+                <img src="src/breakfast/Oladushki.jpeg" alt="Oladushki">
+                <button class="add-button" onclick="selectBreakfast('Oladushki')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Omelette</h2>
+                <img src="src/breakfast/Omelette.jpeg" alt="Omelette">
+                <button class="add-button" onclick="selectBreakfast('Omelette')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Smoothie bowl</h2>
+                <img src="src/breakfast/Smoothie bowl.jpeg" alt="Smoothie bowl">
+                <button class="add-button" onclick="selectBreakfast('Smoothie bowl')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Sweet stuff</h2>
+                <img src="src/breakfast/Sweet stuff.jpeg" alt="Sweet stuff">
+                <button class="add-button" onclick="selectBreakfast('Sweet stuff')">Add</button>
+            </div>
+            <div class="menu-item">
+                <h2>Tuna Sandwich</h2>
+                <img src="src/breakfast/Tuna sandwich.jpeg" alt="Tuna Sandwich">
+                <button class="add-button" onclick="selectBreakfast('Tuna sandwich')">Add</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
