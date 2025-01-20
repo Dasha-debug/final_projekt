@@ -69,23 +69,30 @@ Kiss included: ${kiss}`;
     // Create Gmail link
     const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${emailTo}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     
-    // Open Gmail in a new tab
-    window.open(gmailLink, '_blank');
+    // Open Gmail in a new window and wait for it to close
+    const gmailWindow = window.open(gmailLink, '_blank', 'width=600,height=600');
     
-    // Get the form, heading, and confirmation elements
-    const form = document.getElementById('orderForm');
-    const heading = document.querySelector('.order-window h2');
-    const confirmation = document.getElementById('confirmation');
-    
-    // Hide the form and heading
-    form.style.display = 'none';
-    heading.style.display = 'none';
-    
-    // Show the confirmation message
-    confirmation.classList.remove('hidden');
-    
-    // Clear the cart after order is sent
-    localStorage.setItem('breakfastCart', JSON.stringify([]));
+    // Check every second if Gmail window is closed
+    const timer = setInterval(() => {
+        if (gmailWindow.closed) {
+            clearInterval(timer);
+            
+            // Get the form, heading, and confirmation elements
+            const form = document.getElementById('orderForm');
+            const heading = document.querySelector('.order-window h2');
+            const confirmation = document.getElementById('confirmation');
+            
+            // Hide the form and heading
+            form.style.display = 'none';
+            heading.style.display = 'none';
+            
+            // Show the confirmation message
+            confirmation.classList.remove('hidden');
+            
+            // Clear the cart after order is sent
+            localStorage.setItem('breakfastCart', JSON.stringify([]));
+        }
+    }, 1000);
     
     return false;
 }
