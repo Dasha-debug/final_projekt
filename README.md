@@ -73,11 +73,7 @@ Potential improvements could include:
 
 ## Credits
 
-<<<<<<< HEAD
 Few images weresourced from various breakfast and café collections, but most of them I took myself throughout the years which makes this Breakfast Menu authentic
-=======
-Few images sourced from various breakfast and café collections, but the rest was taken by me throughout the years which adds authenticity to this Breakfast menu.
->>>>>>> refs/remotes/origin/main
 
 ## Setup
 
