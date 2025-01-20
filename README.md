@@ -1,5 +1,5 @@
-# Breakfast Surprise
-#### Video Demo: <URL HERE>
+# Breakfast Menu
+#### Video Demo: <https://youtu.be/9u239ll5eYk>
 #### Description:
 
 A cozy web application designed to make breakfast ordering a delightful experience between partners. This project combines functionality with a warm, intimate aesthetic to create a personal breakfast ordering system.
@@ -73,7 +73,7 @@ Potential improvements could include:
 
 ## Credits
 
-Images sourced from various breakfast and café collections, featuring a range of international breakfast options from Cappuccino to Oladushki.
+Few images weresourced from various breakfast and café collections, but most of them I took myself throughout the years which makes this Breakfast Menu authentic
 
 ## Setup
 
