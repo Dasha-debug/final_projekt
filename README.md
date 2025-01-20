@@ -1,6 +1,11 @@
 # Breakfast Menu
+<<<<<<< HEAD
 #### Video Demo: <https://youtu.be/9u239ll5eYk>
 #### Description: 
+=======
+#### Video Demo: <URL HERE>
+#### Description:
+>>>>>>> refs/remotes/origin/main
 
 A cozy web application designed to make breakfast ordering a delightful experience between partners. This project combines functionality with a warm, intimate aesthetic to create a personal breakfast ordering system.
 
@@ -73,7 +78,11 @@ Potential improvements could include:
 
 ## Credits
 
+<<<<<<< HEAD
 Few images weresourced from various breakfast and café collections, but most of them I took myself throughout the years which makes this Breakfast Menu authentic
+=======
+Few images sourced from various breakfast and café collections, but the rest was taken by me throughout the years which adds authenticity to this Breakfast menu.
+>>>>>>> refs/remotes/origin/main
 
 ## Setup
 
